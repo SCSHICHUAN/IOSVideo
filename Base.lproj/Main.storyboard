@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzP-q1-RN1">
+                                <rect key="frame" x="10" y="33" width="355" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="a5A-Ok-0c7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <state key="normal" title="视频中添加水印">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="water:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DPw-nr-SKH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWR-eQ-WbX">
+                                <rect key="frame" x="10" y="134" width="355" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="kes-1N-rOM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <state key="normal" title="视频中添加文字">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="text:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6OX-C4-nq9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5p-vd-c3R">
+                                <rect key="frame" x="10" y="235" width="355" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ZW0-e2-rd3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <state key="normal" title="视频中添加GIF">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="GIF:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NQ1-AA-eDe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJ6-ZL-ZsJ">
+                                <rect key="frame" x="10" y="336" width="355" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="TUV-VQ-cKd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <state key="normal" title="视频中添加png动画">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="pngAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="apa-sY-J0l"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vB-8o-mwg">
+                                <rect key="frame" x="10" y="437" width="355" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="LLE-CO-tPq"/>
+                                </constraints>
+                                <state key="normal" title="添加放射动画">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FkI-BI-9G4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLD-w1-jf3">
+                                <rect key="frame" x="10" y="538" width="355" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="F0j-RT-hJF"/>
+                                </constraints>
+                                <state key="normal" title="旋转视频">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="rotationVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pbH-lQ-WJq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jJ6-ZL-ZsJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="0wo-AK-bJF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aWR-eQ-WbX" secondAttribute="trailing" constant="10" id="3E2-QT-0aW"/>
+                            <constraint firstItem="jJ6-ZL-ZsJ" firstAttribute="centerX" secondItem="yzP-q1-RN1" secondAttribute="centerX" id="5aG-LX-2wX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jJ6-ZL-ZsJ" secondAttribute="trailing" constant="10" id="8lA-5N-f10"/>
+                            <constraint firstItem="4vB-8o-mwg" firstAttribute="top" secondItem="jJ6-ZL-ZsJ" secondAttribute="bottom" constant="41" id="9hR-5X-GTp"/>
+                            <constraint firstItem="fLD-w1-jf3" firstAttribute="centerX" secondItem="yzP-q1-RN1" secondAttribute="centerX" id="FeV-jp-InZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4vB-8o-mwg" secondAttribute="trailing" constant="10" id="G2U-Rg-zUX"/>
+                            <constraint firstItem="4vB-8o-mwg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="HMb-u9-lU6"/>
+                            <constraint firstItem="jJ6-ZL-ZsJ" firstAttribute="top" secondItem="y5p-vd-c3R" secondAttribute="bottom" constant="41" id="ImD-hG-vuK"/>
+                            <constraint firstItem="yzP-q1-RN1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Je7-qP-iEN"/>
+                            <constraint firstItem="4vB-8o-mwg" firstAttribute="centerX" secondItem="yzP-q1-RN1" secondAttribute="centerX" id="LOX-2b-J4n"/>
+                            <constraint firstItem="fLD-w1-jf3" firstAttribute="top" secondItem="4vB-8o-mwg" secondAttribute="bottom" constant="41" id="Q0z-cd-EE1"/>
+                            <constraint firstItem="aWR-eQ-WbX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Qnv-jj-lKx"/>
+                            <constraint firstItem="y5p-vd-c3R" firstAttribute="top" secondItem="aWR-eQ-WbX" secondAttribute="bottom" constant="41" id="V2w-gY-Feg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yzP-q1-RN1" secondAttribute="trailing" constant="10" id="e5z-3a-HXK"/>
+                            <constraint firstItem="yzP-q1-RN1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="eti-Ey-mjS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fLD-w1-jf3" secondAttribute="trailing" constant="10" id="f76-c2-plJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y5p-vd-c3R" secondAttribute="trailing" constant="10" id="fsC-iB-Pq3"/>
+                            <constraint firstItem="aWR-eQ-WbX" firstAttribute="centerX" secondItem="yzP-q1-RN1" secondAttribute="centerX" id="g92-WE-4la"/>
+                            <constraint firstItem="fLD-w1-jf3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="guH-RJ-RNA"/>
+                            <constraint firstItem="y5p-vd-c3R" firstAttribute="centerX" secondItem="yzP-q1-RN1" secondAttribute="centerX" id="jDr-ZT-iKE"/>
+                            <constraint firstItem="aWR-eQ-WbX" firstAttribute="top" secondItem="yzP-q1-RN1" secondAttribute="bottom" constant="41" id="kZN-LV-DCJ"/>
+                            <constraint firstItem="y5p-vd-c3R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="oOz-Wy-nPh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="572" y="143.47826086956522"/>
+        </scene>
+    </scenes>
+</document>
