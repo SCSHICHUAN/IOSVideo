@@ -1,1 +1,2 @@
-#Addmedia
+<h1>介绍</h1>
+<h3>这个demo是利用AVFoundation来写的，功能是个视频添加水印，文字，动画，旋转视频</h3>
