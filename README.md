@@ -8,6 +8,18 @@
 <h1>如果你不用pod</h1>
 <h4>你可以新建一个项目，把 “ViewController”里的代码复制到你新建的工程中，然后把红色的删除，当然会有部分的功能缺失</h4>
 
+< h1 >Introduction < / h1 >
+<h4> this demo is written using AVFoundation, which is a video function that adds watermarks, text, animation, and rotates video </h4>
+< h1 > attention please < / h1 >
+1. This is a Pod project. If you want to run this demo directly, please synchronize Pod</h4>
+2. Please use the real machine to run </h4>
+
+
+<h1> if you don't use pod</h1>
+<h4> you can create a new project, copy the code from "ViewController" into your new project, and then delete the red ones, of course there will be some functionality missing </h4>
+
+
+
 <h1>Org Code</h1>
 <pre>
   #import "ViewController.h"
