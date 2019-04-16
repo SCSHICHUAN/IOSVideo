@@ -9,7 +9,7 @@
 <h4>你可以新建一个项目，把 “ViewController”里的代码复制到你新建的工程中，然后把红色的删除，当然会有部分的功能缺失</h4>
 
 <h1>Org Code</h1>
-<pr>
+<pre>
   #import "ViewController.h"
 #import <AVFoundation/AVFoundation.h>
 #import <AVKit/AVKit.h>
@@ -836,4 +836,4 @@
 }
 @end
 
-</pr>
+</pre>
